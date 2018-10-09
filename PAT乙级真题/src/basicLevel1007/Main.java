@@ -1,7 +1,7 @@
 package basicLevel1007;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
+
 import java.util.Scanner;
 
 public class Main {
@@ -14,7 +14,7 @@ public class Main {
 		input.close();
 		int k,j,num = 0;
 		ArrayList<Integer> prime = new ArrayList<Integer>();
-		for(int i = 2; i < a;i ++){
+		for(int i = 2; i <= a;i ++){
 			k = (int)Math.sqrt(i);
 			for(j = 2; j <= k; j++){
 				
