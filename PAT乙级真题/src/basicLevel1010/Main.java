@@ -7,13 +7,13 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO 自动生成的方法存根
-		Scanner input = new Scanner(System.in);
+		Scanner input1 = new Scanner(System.in);
 
 		boolean isHaveOutPut = false;
 		
-		while(input.hasNext()){
-			int a = input.nextInt();
-			int b = input.nextInt();
+		while(input1.hasNext()){
+			int a = input1.nextInt();
+			int b = input1.nextInt();
 			
 			if(a * b !=0){
 				if(isHaveOutPut){
@@ -28,12 +28,11 @@ public class Main {
 			 
 			
 		}
-		input.close();
+		input1.close();
 		if(!isHaveOutPut){
 			System.out.print("0 0");
 			
 		}
-		
 	}
 
 }
