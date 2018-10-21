@@ -1,12 +1,13 @@
 package basicLevel1038;
 
+import java.io.BufferedInputStream;
 import java.util.Scanner;
 
 public class Main {
 //
 	public static void main(String[] args) {
 		// TODO 自动生成的方法存根
-		Scanner input = new Scanner(System.in);
+		Scanner input = new Scanner(new BufferedInputStream(System.in));
 		
 		int[] score = new int [101];
 		
